@@ -17,4 +17,4 @@ strong = make_password.setting()
 strong.writeFile(mode="basic")
 
 -->Would you like use symbol in the password?[y/n]: y
--->Wrote down such as this password: [password shown]
+<br>-->Wrote down such as this password: [password shown]
