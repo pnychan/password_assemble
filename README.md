@@ -1,6 +1,6 @@
-#password_assemble --パスワード集
+#password_assemble --パスワード集#
 ##This program is used to create strong password.
-  --このプログラムは強力なパスワードを作ってくれます。
+  --このプログラムは強力なパスワードを作ってくれます。##
 
 _How to use_　使い方<br>
 **soft_password.py**: This program reproductions "Suggests Strong Password" usually you used.
