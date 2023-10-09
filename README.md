@@ -16,23 +16,7 @@ You can use this to create new mailadress and user name.<br>
 メールアドレスとユーザー名で迷ったときに使えます。
 
 **make_password.py**: This git's main. And you can create new app from this 
-program. There are example↓<br>
+program.<br>
 **make_password.py**: このgitのメイン部分です。ほとんどのプログラムはこのmake_passwordに頼っています。
 つまりこのプログラムによって新しいアプリを作ることができると言い換えることができます。
-下に例があります↓<br>
-ex. 例）
-1.
-import make_password
-strong = make_password.setting()
-strong.writeFile(mode="basic")
-
--->Use symbol?[y/n]: y
-<br>-->Password: [password shown]
-
-2.
-import make_password
-strong = make_password.setting()
-strong.writeFile(dize=strong.randomPass(9, mode="micro"))
-
--->Password: [password shown]
 
