@@ -1,7 +1,7 @@
 <h1 align="center">password_assemble</h1>
 <h3 align="center>This program is used to create strong password.</h3>
 
-<h3>_How to use_</h3>
+_How to use_<br>
 soft_password.py: This program reproductions "Suggests New Password".
 And you can keep a password in "myfile.txt".
 
