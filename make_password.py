@@ -7,6 +7,7 @@ a = ""
 pass_chars = ""
 ex_characters = "..__:!"
 password = ""
+digits = "123456789012345678901234567890"
 
 def error(contain, function=None):
     print("Location: "+function+"() Error has occured: "+contain)
@@ -45,7 +46,7 @@ class setup:
         if mode == "basic":#You can set new app in there.
             pass
         elif mode == "micro":
-            pass_chars = string.ascii_letters + ex_characters
+            pass_chars = string.ascii_letters + ex_characters + string.digits
             password = ''.join(secrets.choice(pass_chars) for x in range(length))
             password = self.symbol_replace(password)
             return password
